@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container .col.flex {
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.container .col.flex .card {
+  width: calc(20% - 10px);
+  margin: 5px;
+}
+
+.container .col.flex .card .original_title,
+.container .col.flex .card .nationality,
+.container .col.flex .card .date,
+.container .col.flex .card .vote {
+  font-size: 12px;
+}
+
